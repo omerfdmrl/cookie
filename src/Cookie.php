@@ -30,7 +30,7 @@ class Cookie
     /**
      * @var bool $onlyHttps Only Work On Https Setting
      */
-    public static bool $onlyHttps = False;
+    public static bool $onlyHttp = False;
 
     /**
      * @var string $path Cookie Path
@@ -60,9 +60,9 @@ class Cookie
     /**
      * @param bool $onlyHttps
      */
-    public static function set_onlyHttps(bool $onlyHttps): void
+    public static function set_onlyHttp(bool $onlyHttp): void
     {
-        self::$onlyHttps = $onlyHttps;
+        self::$onlyHttp = $onlyHttp;
     }
 
     /**
@@ -107,7 +107,7 @@ class Cookie
             }elseif(is_int($time)){
                 $time = $time;
             }
-            setcookie(self::$prefix.$name,$value,$time,self::$path,self::$domain,self::$secure,self::$onlyHttps);
+            setcookie(self::$prefix.$name,$value,$time,self::$path,self::$domain,self::$secure,self::$onlyHttp);
         }
     }
 
