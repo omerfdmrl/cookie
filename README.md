@@ -53,6 +53,9 @@ $cookie->set_domain('.domain.com')
 // You can use: '+1 day' / '+5 week' / '+2 year' etc.
 $cookie->set('my_cookie','my_value','+1 day');
 
+// This cookie will be forever
+$cookie->forever('forever_cookie','forever_value');
+
 // They will return 'my_value'. If cookie doens't exist, They will return False
 $cookie->get('my_cookie');
 
