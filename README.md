@@ -67,7 +67,7 @@ $cookie->delete('my_cookie');
 
 
 ## Docs
-Documentation page: [Security Docs][doc-url]
+Documentation page: [Cookie Docs][doc-url]
 
 
 ## Licence
