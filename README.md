@@ -5,7 +5,7 @@ Simple and Light Cookie Class for Php
 
 ### Features
 - Create, Delete, Set Cookie
-- Set Prefix, Domain, Secure, OnlyHttps, Path
+- Set Prefix, Domain, Secure, OnlyHttp, Path
 
 ## Install
 
