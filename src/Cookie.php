@@ -74,7 +74,7 @@ class Cookie
     }
 
     /**
-     * @param string $path
+     * @param string $domain
      */
     public static function set_domain(string $domain): void
     {
@@ -82,9 +82,9 @@ class Cookie
     }
 
     /**
-     * @param string $path
+     * @param bool $secure
      */
-    public static function set_secure(string $secure): void
+    public static function set_secure(bool $secure): void
     {
         self::$secure = $secure;
     }
