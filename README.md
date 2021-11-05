@@ -2,6 +2,12 @@
 
 Simple and Light Cookie Class for Php
 
+[![Latest Stable Version](http://poser.pugx.org/omerfdmrl/cookie/v)](https://packagist.org/packages/omerfdmrl/cookie) 
+[![Total Downloads](http://poser.pugx.org/omerfdmrl/cookie/downloads)](https://packagist.org/packages/omerfdmrl/cookie) 
+[![Latest Unstable Version](http://poser.pugx.org/omerfdmrl/cookie/v/unstable)](https://packagist.org/packages/omerfdmrl/cookie) 
+[![License](http://poser.pugx.org/omerfdmrl/cookie/license)](https://packagist.org/packages/omerfdmrl/cookie) 
+[![PHP Version Require](http://poser.pugx.org/omerfdmrl/cookie/require/php)](https://packagist.org/packages/omerfdmrl/cookie)
+
 
 ### Features
 - Create, Delete, Set Cookie
